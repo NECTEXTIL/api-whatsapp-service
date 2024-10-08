@@ -1,0 +1,4 @@
+# Ejecutar un script PHP cada minuto
+* * * * * php /var/www/html/scripts/cron.php >> /var/log/cron.log 2>&1
+# Ejecutar un script PHP cada 30 segundos
+* * * * * sleep 30; php /var/www/html/scripts/cron.php >> /var/log/cron.log 2>&1

@@ -1,0 +1,27 @@
+{
+  "name": "api-agenda-cron-service",
+  "version": "1.0.0",
+  "description": "PHP con integración de Node.js",
+  "main": "g.js",
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080 router.php",
+    "start:prod": "php -S 0.0.0.0:8001 ./app/router.php",
+    "watch": "webpack --watch --progress",
+    "dev": "php -S 0.0.0.0:8080 router.php",
+    "make": "node artisan.js c"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^10.0.1",
+    "node-php": "0.0.1",
+    "sphp": "^0.6.3",
+    "yargs": "^17.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "php-serve": "^0.0.1",
+    "php-server": "^1.0.0"
+  }
+}
